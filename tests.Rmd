@@ -1,0 +1,21 @@
+---
+title: "Google Summer of Code 2021"
+author: "Thakare"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Organisation: The R Project for Statistical Computing
+
+### Project: Building an Adaptive Shiny Based Digital Twin Platform for Industrial Applications
+
+
+
+#### Hard Test
+
+For the final test, I created a R package called `Calculator`. It contains five functions, `add()`, `substract()`, `multiply()`, `divide()` and `modulo()` , with documentation and tests. Then, using `devtools::check()`, I checked for any errors or warning, and uploaded the source file to <https://win-builder.r-project.org/>. It passed without errors/warnings/note.
+
+The result of [\<https://win-builder.r-project.org/\>](https://win-builder.r-project.org/){.uri} is included in the github repository(`00check.log`).
